@@ -43,7 +43,7 @@ This document uses arithmetic operators that are still TBD.
     <dd>Hexadecimal notation is a way of representing numbers using a hexadecimal numeral system. The hexadecimal numeral system represents numbers using a base, or radix, of 16, and each numeral is presented by 16 different symbols, comprising the 10 numbers from "0" through "9" in addition to 6 letters, upper case "A" through "F", or lower case "a" through "f". The prefix "0x" is frequently used to indicate a hexadecimal number.</dd>
     <dt><dfn id="binary_notation" title="Binary Notation">Binary notation</dfn></dt>
     <dd>Binary notation is a way of representing numbers using a binary numeral system. A binary numeral system represents numbers using a base, or radix, of 2 using the symbols "0" and "1". Each digit is referred to as a "bit". Because of the simplicity of the binary numeral system, it is the preferred system used by nearly all computers and computer-based devices.</dd>
-    <dt>Byte</dt>
+    <dt><dfn id="byte" title="Byte">Byte</dfn></dt>
     <dd>A Byte is a unit of information that refers to a group of 8 bits. Historically the byte was the smallest number of bits to encode a single character of text in a computer, and before standardisation, a byte could represent different numbers of bits dependent on hardware implementation. Now a Byte is standardized to refer to exactly 8 bits and using the power of two encoding to represent 256 separate values of "0" through "255", with its symbol as the upper case letter "B". Due to potential ambiguity with "byte", an 8-bit sequence of bits is now standardized to refer to as an "octet", represented by the lower case "o". Bytes are also frequently grouped together into "words", with most modern architecture using 32bit or 64bit words, comprising 4 or 8 Bytes. 32bit and 64bit words are used to store bit sequences as well as the integer and floating-point values.</dd>
     <dt>"Endianness"</dt> 
     <dd>indicates whether a Byte, or octet, is encoded with the 1st bit in the sequence representing the least significant bit, little-endian, or whether the 1st bit in the sequence represents the most significant bit, big-endian. Little-endian is dominant in most current computing architectures, and big-endian is dominant network protocol architecture, such as Internet Protocol Suite (TCP/IP).</dd>
@@ -218,4 +218,7 @@ This document uses arithmetic operators that are still TBD.
 * * bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
 
 **Achor + dfn(id, title)**
-* * bla, bla, bla, <a href="#binary_notation" title="binary_notation">Binary notation</a>
+* * bla, bla, bla, <a href="#binary_notation" title="Binary Notation">Binary notation</a>
+
+**Achor + dfn(id)**
+* * bla, bla, bla, <a href="#byte">Byte</a>
