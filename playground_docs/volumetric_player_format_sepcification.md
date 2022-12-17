@@ -212,10 +212,10 @@ This document uses arithmetic operators that are still TBD.
 #### Options
 
 **Anchor**
-* bla, bla, bla, <a>Decimanl notation</a>
+* bla, bla, bla, <a>Decimal notation</a>
 
 **Achor + dfn(id)**
 * * bla, bla, bla, <a id="hexadecimal_notation">Hexadecimal notation</a>
 
 **Achor + dfin(id, title)**
-* * bla, bla, bla, <a id="hexadecimal_notation" title="hexadecimal_notation">Hexadecimal notation</a>
+* * bla, bla, bla, <a id="binary_notation" title="binary_notation">Binary notation</a>
