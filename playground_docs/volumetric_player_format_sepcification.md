@@ -1,4 +1,3 @@
-
 ## About This Book
 
 This book is the specification for playing volumetric content back on any type of screen/device. This includes gaming consoles, XR headsets, smartphones/tv's and set-top boxes. This book will cover the compression standards, the container standards, and the interactive layer standards.
