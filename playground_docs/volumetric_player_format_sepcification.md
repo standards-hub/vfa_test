@@ -23,7 +23,7 @@ Models to use: [REFLABEL] "Ref Title", Ref information (source, date, id), URL:h
 
 Check the version of the Dictionary you are using and update the reference below. Delete the [VFADICT] entry if the Dictionary is not used. In general, use the latest available version unless seeking alignment with an existing set of specifications.
 
-## Terminology and Conventions
+### Terminology and Conventions
 
 This specification will use the following keywords that indicate that a section must be implemented, is optional or is just for information purposes.
 
@@ -34,7 +34,7 @@ This specification will use the following keywords that indicate that a section 
 
 This document uses arithmetic operators that are still TBD.
 
-## Numerical-Notation
+### Numerical-Notation
 
 <dl>
     <dt>Decimal notation</dt>
@@ -79,6 +79,7 @@ This document uses arithmetic operators that are still TBD.
     <dt>Application Management</dt>
     <dd>The direction of Setup functions of an __Application__ and maintenance of resources that enable __Trick Play__.</dd>
 </dl>
+
 </br>
 </br>
 </br>
