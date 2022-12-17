@@ -218,7 +218,7 @@ This document uses arithmetic operators that are still TBD.
 * * bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
 
 **Achor + dfn(id, title)**
-* * bla, bla, bla, <a href="#binary_notation" title="binary_notation">Binary notation</a>
+* * bla, bla, bla, <a href="#binary_notation" title="Binary Notation">Binary notation</a>
 
-**Achor + dfn(id, title)**
+**Achor + dfn(id)**
 * * bla, bla, bla, <a href="#byte">Byte</a>
