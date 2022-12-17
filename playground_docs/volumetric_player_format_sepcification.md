@@ -3,10 +3,11 @@
 
 This book is the specification for playing volumetric content back on any type of screen/device. This includes gaming consoles, XR headsets, smartphones/tv's and set-top boxes. This book will cover the compression standards, the container standards, and the interactive layer standards.
 
-## Scope
+### Scope
 
 This speciation will cover only how the volumetric audio, video, data, and interactive layer is organized for streaming and playback on a device. This specification doesn't go into standards for processing volumetric data for editing purposes.
-## References
+
+### References
 
 **Normative**
 
@@ -51,7 +52,7 @@ This document uses arithmetic operators that are still TBD.
     <dd>A Numerical Value is a number described by a Numerical System. For example, in Binary Notation, the symbol "0" represents the value 0, and the symbol "1" represents the value 1. In Hexadecimal Notation, the symbol "0x0A" represents the numerical value of 10. In Decimal notation, the symbol "10" represents the numerical value of 10.</dd>
 </dl> 
 
-## Definitions
+### Definitions
 <dl> 
     <dt>2D</dt> 
     <dd>Two-dimentional. Two spacial dimentions.</dd>
