@@ -80,6 +80,13 @@ This document uses arithmetic operators that are still TBD.
     <dd>The direction of Setup functions of an __Application__ and maintenance of resources that enable __Trick Play__.</dd>
 </dl>
 
+### Abbreviations
+<dl>
+    <dt>
+      <dfn id="html"><abbr title="HyperText Markup Language">HTML</abbr></dfn>
+    </dt>
+    <dd>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</dd>
+</dl>
 </br>
 </br>
 </br>
@@ -217,7 +224,9 @@ This document uses arithmetic operators that are still TBD.
 <dd>... definition statement...</dd>
 ```
 
-bla, bla, bla, <a>Decimal notation</a>
+**Usage**
+
+* bla, bla, bla, <a>Decimal notation</a>
 
 ### dfn(id)
 
@@ -228,6 +237,7 @@ bla, bla, bla, <a>Decimal notation</a>
 <dd>... definition statement...</dd>
 ```
 
+**Usage**
 * bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
 
 ```html
@@ -240,8 +250,10 @@ bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
  <dt>
     <dfn id="binary_notation" title="Binary Notation">Binary notation</dfn>
  </dt>
+ <dd>... definition statement</dd>
 
 ```
+**Usage**
 * bla, bla, bla, <a href="#binary_notation" title="Binary Notation">Binary notation</a>
 
 ```html
@@ -255,8 +267,8 @@ bla, bla, bla, <a href="#binary_notation" title="Binary Notation">Binary notatio
     <dfn id="byte" title="Byte" data-ref="url">Byte</dfn>
 </dt>
 ```
-
-* bla, bla, bla, <a href="#byte">Byte</a>
+**Usage**
+* bla, bla, bla, <a href="#byte" title="Byte">Byte</a>
 
 ```html
 bla, bla, bla, <a href="#byte" title="Byte">Byte</a>
@@ -269,7 +281,9 @@ bla, bla, bla, <a href="#byte" title="Byte">Byte</a>
         <abbr title="HyperText Markup Language">HTML</abbr>
     </dfn>
 </dt>
-
+<dd>... provide abbreviation details</dd>
+```
+**Usage**
 * bla, bla, bla, <a href="#html" title="HyperText Markup Language">HyperText Markup Language</a>
 
 ```html
