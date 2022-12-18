@@ -308,3 +308,9 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 **Usage**
 
 * <a>Binary Notation</a>
+* <a title="">Binary Notations</a>
+
+```html
+    <dt title="Binary Notation">Binary notation</dt>
+    <dd>Binary notation is ...</dd>
+```
