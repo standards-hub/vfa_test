@@ -222,11 +222,17 @@ bla, bla, bla, <a>Decimal notation</a>
 ### dfn(id)
 
 ```html
-<dt>Hexadecimal notation</dt>
+<dt>
+    <dfn id="hexadecimal_notation">Hexadecimal notation</dfn>
+</dt>
 <dd>... definition statement...</dd>
 ```
 
 * bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
+
+```html
+bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
+```
 
 ### dfn(id, title)
 
@@ -238,6 +244,10 @@ bla, bla, bla, <a>Decimal notation</a>
 ```
 * bla, bla, bla, <a href="#binary_notation" title="Binary Notation">Binary notation</a>
 
+```html
+bla, bla, bla, <a href="#binary_notation" title="Binary Notation">Binary notation</a>
+```
+
 ### dfn(id, title, data-ref)
 
 ```html
@@ -248,12 +258,20 @@ bla, bla, bla, <a>Decimal notation</a>
 
 * bla, bla, bla, <a href="#byte">Byte</a>
 
+```html
+bla, bla, bla, <a href="#byte" title="Byte">Byte</a>
+```
+
 ### dfn (id, abbr(title))
 ```html
 <dt>
-    <dfn id="">
+    <dfn id="html">
         <abbr title="HyperText Markup Language">HTML</abbr>
     </dfn>
 </dt>
 
-* bla, bla, bla, <a href="#" title="HyperText Markup Language">HyperText Markup Language</a>
+* bla, bla, bla, <a href="#html" title="HyperText Markup Language">HyperText Markup Language</a>
+
+```html
+bla, bla, bla, <a href="#html" title="HyperText Markup Language">HyperText Markup Language</a>
+```
