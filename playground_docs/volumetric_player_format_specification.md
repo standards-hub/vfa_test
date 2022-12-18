@@ -239,9 +239,13 @@ This document uses arithmetic operators that are still TBD.
 
 **Usage**
 * bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
+* bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation<strong>s</strong></a>
 
 ```html
 bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
+
+bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notations</a>
+
 ```
 
 ### dfn(id, title)
