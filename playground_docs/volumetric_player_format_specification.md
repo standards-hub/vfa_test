@@ -284,8 +284,8 @@ bla, bla, bla, <a href="#byte" title="Byte">Byte</a>
 <dd>... provide abbreviation details</dd>
 ```
 **Usage**
-* bla, bla, bla, <a href="#html" title="HyperText Markup Language">HyperText Markup Language</a>
+* bla, bla, bla, <abbr href="#html" title="HyperText Markup Language">HyperText Markup Language</abbr>
 
 ```html
-bla, bla, bla, <a href="#html" title="HyperText Markup Language">HyperText Markup Language</a>
+bla, bla, bla, <abbr href="#html" title="HyperText Markup Language">HTML</abbr>
 ```
