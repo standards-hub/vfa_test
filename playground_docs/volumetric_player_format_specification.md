@@ -211,6 +211,7 @@ This document uses arithmetic operators that are still TBD.
 
 
 ### dfn
+
 ```html
 <dt>Decimal notation</dt>
 <dd>... definition statement...</dd>
@@ -219,15 +220,40 @@ This document uses arithmetic operators that are still TBD.
 bla, bla, bla, <a>Decimal notation</a>
 
 ### dfn(id)
+
 ```html
+<dt>Hexadecimal notation</dt>
+<dd>... definition statement...</dd>
 ```
+
 * bla, bla, bla, <a href="#hexadecimal_notation">Hexadecimal notation</a>
 
-**Anchor + dfn(id, title)**
+### dfn(id, title)
+
+```html
+ <dt>
+    <dfn id="binary_notation" title="Binary Notation">Binary notation</dfn>
+ </dt>
+
+```
 * bla, bla, bla, <a href="#binary_notation" title="Binary Notation">Binary notation</a>
 
-**Anchor + dfn(id)**
+### dfn(id, title, data-ref)
+
+```html
+<dt>
+    <dfn id="byte" title="Byte" data-ref="url">Byte</dfn>
+</dt>
+```
+
 * bla, bla, bla, <a href="#byte">Byte</a>
 
-**Anchor + dfn (id, title, data-ref)**
-* bla, bla, bla, <a href="#endiannes" title="Endianness">Endianness</a>
+### dfn (id, abbr(title))
+```html
+<dt>
+    <dfn id="">
+        <abbr title="HyperText Markup Language">HTML</abbr>
+    </dfn>
+</dt>
+
+* bla, bla, bla, <a href="#" title="HyperText Markup Language">HyperText Markup Language</a>
