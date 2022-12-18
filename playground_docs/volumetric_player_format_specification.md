@@ -293,3 +293,18 @@ bla, bla, bla, <a href="#byte" title="Byte">Byte</a>
 ```html
 bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 ```
+
+### Simple Format
+
+
+```html
+ <dt>
+    <dfn id="binary_notation" title="Binary Notation">Binary notation</dfn>
+ </dt>
+ <dd>... definition statement</dd>
+
+```
+
+**Usage**
+
+* <a>Binary Notation</a>
