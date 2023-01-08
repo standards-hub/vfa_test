@@ -7,7 +7,7 @@ date: "2022-Dec-3"
 copyrightDate: "2022"
 logo: "images/vfa_logo.png"
 documentName: "VFA-TS-Volumetric-Player-Format-V1_0-20221203-A"
-watermark: ""
+watermark: "DRAFT"
 files:
   - License.md
   - volumetric_player_format_specification.md
