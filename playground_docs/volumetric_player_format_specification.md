@@ -87,6 +87,25 @@ This document uses arithmetic operators that are still TBD.
     </dt>
     <dd>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</dd>
 </dl>
+        <dl>
+            <dt>Server</dt>
+            <dd>Server description.</dd>
+            <dt>Client</dt>
+            <dd>Client description.</dd>
+            <dt>HTML</dt>
+            <dd>Hypertext Markdown Language</dd>
+            <dt>AD</dt>
+            <dd>Architecture Document</dd>
+        </dl>
+        <p>O’er all the hilltops<br />
+           Is quiet now,<br />
+           In all the treetops<br />
+           Hearest thou<br />
+           Hardly a breath;<br />
+           The birds are asleep in the trees:<br />
+           Wait, soon like these<br />
+           Thou too shalt rest.<br />
+        </p>
 </br>
 </br>
 </br>
@@ -319,3 +338,11 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
     <dt title="Binary Notation">Binary notation</dt>
     <dd>Binary notation is ...</dd>
 ```
+
+ <p>
+    bla, bla, bla, bla, <a>Server</a>    <br />     
+    bla, bla, bla, bla, <a title="Client">Clients</a><br />
+    blo, blo, blo, blo, <abbr>HTML</abbr><br />
+    blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
+            
+</p> 
