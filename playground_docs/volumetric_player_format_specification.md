@@ -340,7 +340,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 ```
 ### New Proposal
 #### Singular Definition
-**Definition**
+**Markdown:**
 
 ```html
 <dl>
@@ -348,14 +348,30 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
     <dd>Server description.</dd>
 </dl>
 ```
-**Usage**
+
+**HTMl**
+```html
+<dl>
+    <dt id="server">Server</dt>
+    <dd>Server description.</dd>
+</dl>
+```
+
+**Markdown**
+
     bla, bla, bla, bla, <a>Server</a>    <br /> 
 
 ```html
     bla, bla, bla, bla, <a>Server</a>
 ```
+
+**HTML**
+```html
+    bla, bla, bla, bla, <a href="#server">Server</a>
+```
+
 #### Plural Definition 
-**Definition**
+**Markdown**
 ```html
         <dl>
             <dt>Client</dt>
@@ -363,11 +379,23 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
         </dl>
 ```
 
-**Usage**
-    bla, bla, bla, bla, <a title="Client">Clients</a><br />
+ bla, bla, bla, bla, <a title="Client">Clients</a><br />
 
 ```html
  bla, bla, bla, bla, <a title="Client">Clients</a>
+```
+
+**HTML**
+```html
+        <dl>
+            <dt id="client">Client</dt>
+            <dd>Client description.</dd>
+        </dl>
+```
+
+```html
+ bla, bla, bla, bla, <a href="#client" title="Client">Clients</a>
+
 ```
 
 #### Singular Abbreviation
@@ -379,6 +407,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
         </dl>
 ```
 **Usage**
+
     blo, blo, blo, blo, <abbr>HTML</abbr><br />
 
 ```html
@@ -394,6 +423,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 ```
 
 **Usage**
+
     blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
 
 ```html
