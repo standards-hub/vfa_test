@@ -338,11 +338,65 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
     <dt title="Binary Notation">Binary notation</dt>
     <dd>Binary notation is ...</dd>
 ```
+### New Proposal
+#### Singular Definition
+**Definition**
 
- <p>
-    bla, bla, bla, bla, <a>Server</a>    <br />     
+```html
+<dl>
+    <dt>Server</dt>
+    <dd>Server description.</dd>
+</dl>
+```
+**Usage**
+    bla, bla, bla, bla, <a>Server</a>    <br /> 
+
+```html
+    bla, bla, bla, bla, <a>Server</a>
+```
+#### Plural Definition 
+**Definition**
+```html
+        <dl>
+            <dt>Client</dt>
+            <dd>Client description.</dd>
+        </dl>
+```
+
+**Usage**
     bla, bla, bla, bla, <a title="Client">Clients</a><br />
+
+```html
+ bla, bla, bla, bla, <a title="Client">Clients</a>
+```
+
+#### Singular Abbreviation
+**Abbreviation**
+```html
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markdown Language</dd>
+        </dl>
+```
+**Usage**
     blo, blo, blo, blo, <abbr>HTML</abbr><br />
+
+```html
+    blo, blo, blo, blo, <abbr>HTML</abbr>
+```
+#### Plural Abbreviation
+**Abbreviation**
+```html
+        <dl>
+            <dt>AD</dt>
+            <dd>Architecture Document</dd>
+        </dl>
+```
+
+**Usage**
     blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
+
+```html
+    blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
+```
             
-</p> 
