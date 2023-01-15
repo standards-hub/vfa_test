@@ -429,4 +429,19 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 ```html
     blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
 ```
-            
+
+### Reference to Another Description
+
+#### Markdown
+```html
+        <dl>
+            <dt>HTML</dt>
+            <dd>href="url"</dd>
+        </dl>
+```
+
+#### Usage
+```html
+ bla, bla, bla, bla, <a>HTML</a>
+
+```
