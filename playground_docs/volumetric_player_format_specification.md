@@ -448,16 +448,7 @@ blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
 ```
 ### Jan 22, 2023
 #### Definitions
-<dl> 
-    <dt>2D</dt> 
-    <dd>Two-dimentional. Two spacial dimentions.</dd>
-    <dt>3D Projection Matrix</dt> 
-    <dd>A __Projection matrix__ that describes the transformation of a __3D__ point onto a __2D__ view.</dd>
-    <dt>3D</dt>
-    <dd>Three-dimentional. Three spacial dimentions.</dd>
-    <dt>4D</dt>
-    <dd>Four-dimentional. Three spacial dimentions, and one time dimention.</dd>
-</dl>
+
 
 bla, bla, <a>2D</a>
 bla, bla, <a>3D Projection Matrix</a>
