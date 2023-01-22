@@ -359,7 +359,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 
 **Markdown**
 
-    bla, bla, bla, bla, <a>Server</a>    <br /> 
+bla, bla, bla, bla, <a>Server</a>    <br /> 
 
 ```html
     bla, bla, bla, bla, <a>Server</a>
@@ -394,7 +394,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 ```
 
 ```html
- bla, bla, bla, bla, <a href="#client" title="Client">Clients</a>
+bla, bla, bla, bla, <a href="#client" title="Client">Clients</a>
 
 ```
 
@@ -408,7 +408,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 ```
 **Usage**
 
-    blo, blo, blo, blo, <abbr>HTML</abbr><br />
+blo, blo, blo, blo, <abbr>HTML</abbr><br />
 
 ```html
     blo, blo, blo, blo, <abbr>HTML</abbr>
@@ -424,7 +424,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 
 **Usage**
 
-    blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
+blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
 
 ```html
     blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
@@ -441,6 +441,7 @@ bla, bla, bla, <a href="#html" title="HyperText Markup Language">HTML</a>
 ```
 
 #### Usage
+
 ```html
  bla, bla, bla, bla, <a>HTML</a>
 
