@@ -446,3 +446,36 @@ blo, blo, blo, blo, <abbr title="AD">ADs</abbr>
  bla, bla, bla, bla, <a>HTML</a>
 
 ```
+### Jan 22, 2023
+#### Definitions
+<dl> 
+    <dt>2D</dt> 
+    <dd>Two-dimentional. Two spacial dimentions.</dd>
+    <dt>3D Projection Matrix</dt> 
+    <dd>A __Projection matrix__ that describes the transformation of a __3D__ point onto a __2D__ view.</dd>
+    <dt>3D</dt>
+    <dd>Three-dimentional. Three spacial dimentions.</dd>
+    <dt>4D</dt>
+    <dd>Four-dimentional. Three spacial dimentions, and one time dimention.</dd>
+</dl>
+
+bla, bla, <a>2D</a>
+bla, bla, <a>3D Projection Matrix</a>
+bla, bla, <a>3D</a>
+bla, bla, <a>4D</a>
+bla, bla, <a title="2D">2D's</a>
+
+#### Abbreviations
+<dl>
+    <dt>TS</dt>
+    <dd>Technical Specification</dd>
+    <dt>ERP</dt>
+    <dd>Enabler Release Package</dd>
+</dl>
+
+bla, bla, <abbr>TS</abbr>
+bla, bla, <abbr>ERP</abbr>
+
+Plural:
+bla, bla, <abbr title="TS">TS's</abbr>
+bla, bla, <abbr title="ERP">ERP's</abbr>
