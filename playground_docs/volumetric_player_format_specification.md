@@ -470,3 +470,52 @@ bla, bla, <abbr>ERP</abbr>
 Plural:
 bla, bla, <abbr title="TS">TS's</abbr>
 bla, bla, <abbr title="ERP">ERP's</abbr>
+
+
+### Definitions
+* This is how a `definition` is defined on the markdown document:
+
+
+ <dl>
+     <dt>Git</dt>
+    <dd>Git is a distributed version control system that tracks changes in any set of text files.</dd>
+ </dl>
+
+Where:
+    `<dl>` = definition list;
+    `<dt>` = definition title;
+    `<dd>` = definition description.
+
+* This is how a `definition` is used in a section text.
+
+
+bla, bla, bla, 
+<a>Git</a> is a free and open-source distributed version control system designed to handle everything from small to very large projects quickly and efficiently.
+bla, bla, bla,
+
+
+* This is how a `definition` is displayed in HTML and PDF documents.
+
+
+
+### Abbreviations
+This is how an `abbreviation` is written on the markdown documents:
+
+
+ <dl>
+    <dt>SH</dt>
+    <dd>Standards Hub</dd>
+ </dl>
+
+Where:
+    `<dl>` = definition list;
+    `<dt>` = definition title;
+    `<dd>` = definition description.
+
+* This is how an `abbreviation` is used in a section text.
+
+
+bla, bla, bla, 
+<abbr>SH</abbr> is a Service Management Association that provides Standards Organizations with an end-to-end service, from organization formation to publication of the organization outputs.
+bla, bla
+
