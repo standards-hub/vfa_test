@@ -477,8 +477,8 @@ bla, bla, <abbr title="ERP">ERP's</abbr>
 
 
  <dl>
-        <dt>Git</dt>
-        <dd>Git is a distributed version control system that tracks changes in any set of text files.</dd>
+     <dt>Git</dt>
+    <dd>Git is a distributed version control system that tracks changes in any set of text files.</dd>
  </dl>
 
 Where:
@@ -503,8 +503,8 @@ This is how an `abbreviation` is written on the markdown documents:
 
 
  <dl>
-        <dt>SH</dt>
-        <dd>Standards Hub</dd>
+    <dt>SH</dt>
+    <dd>Standards Hub</dd>
  </dl>
 
 Where:
