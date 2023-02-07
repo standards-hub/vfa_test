@@ -477,8 +477,10 @@ bla, bla, <abbr title="ERP">ERP's</abbr>
 
 
  <dl>
-     <dt>Git</dt>
+    <dt>Git</dt>
     <dd>Git is a distributed version control system that tracks changes in any set of text files.</dd>
+    <dt>Firewall</dt>
+    <dd>In computing, a firewall is a network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.</dd>
  </dl>
 
 Where:
@@ -491,7 +493,8 @@ Where:
 
 bla, bla, bla, 
 <a>Git</a> is a free and open-source distributed version control system designed to handle everything from small to very large projects quickly and efficiently.
-bla, bla, bla,
+bla, bla, bla. 
+Network security is monitored by <a title= "firewall">firewalls</a> which control ...
 
 
 * This is how a `definition` is displayed in HTML and PDF documents.
@@ -505,6 +508,10 @@ This is how an `abbreviation` is written on the markdown documents:
  <dl>
     <dt>SH</dt>
     <dd>Standards Hub</dd>
+    <dt>TS</dt>
+    <dd>Technical Specification</dd>
+    <dt>AD</dt>
+    <dd>Architecture Document</dd>
  </dl>
 
 Where:
@@ -516,6 +523,6 @@ Where:
 
 
 bla, bla, bla, 
-<abbr>SH</abbr> is a Service Management Association that provides Standards Organizations with an end-to-end service, from organization formation to publication of the organization outputs.
-bla, bla
+bla, bla, <abbr>SH</abbr> is a Service Management Association that provides Standards Organizations with an end-to-end service, from organization formation to publication of the organization outputs.
+such as <abbr title= "TS">TS's</abbr> and <abbr title= "AD">AD's</abbr>
 
