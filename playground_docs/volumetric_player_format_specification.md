@@ -2,6 +2,19 @@
 
 This book is the specification for playing volumetric content back on any type of screen/device. This includes gaming consoles, XR headsets, smartphones/tv's and set-top boxes. This book will cover the compression standards, the container standards, and the interactive layer standards.
 
+## Test
+
+```mermaid
+graph LR
+	A[Test Start] --> B[For each attribute of each object <br> declared in the LwM2M server, <br> check the presence of each  <br> mandatory resource in the uCIFI <br> Data Model]
+	B --> C{Each mandatory <br>	resource is present?}
+	C --> |No| Fail[Test Failed]
+	C --> |Yes| D[For each attribute of each <br> object declared in the LwM2M <br> server, check the format of <br> each declared resource <br> compared to the uCIFI <br> Data Model]
+	D --> E{Each resource <br> has the right <br> format?}
+	E --> |No| Fail
+	E --> |Yes| Success[Test Success]
+```
+
 ### Scope
 
 This speciation will cover only how the volumetric audio, video, data, and interactive layer is organized for streaming and playback on a device. This specification doesn't go into standards for processing volumetric data for editing purposes.
